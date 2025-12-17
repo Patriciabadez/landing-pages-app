@@ -1,0 +1,27 @@
+<section class="landing-hero">
+  <div class="hero-content">
+    <h1>{{ empresa.headline }}</h1>
+    <p>{{ empresa.subheadline }}</p>
+
+    <button class="cta">
+      Solicitar demonstração
+    </button>
+  </div>
+</section>
+
+<section class="beneficios">
+  <h2>Principais benefícios</h2>
+
+  <div class="beneficios-grid">
+    <div class="beneficio-card" *ngFor="let b of empresa.beneficios">
+      ✔ {{ b }}
+    </div>
+  </div>
+</section>
+
+<section class="cta-final">
+  <h2>Pronto para transformar sua {{ empresa.nome }}?</h2>
+  <button class="cta-secundaria">
+    Falar com especialista
+  </button>
+</section>

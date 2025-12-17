@@ -1,0 +1,45 @@
+.empresas-hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #222D5B, #4f6ef7);
+  color: white;
+}
+
+.empresas-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+.empresas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 60px;
+}
+
+.empresa-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 15px 30px rgba(0,0,0,.1);
+  transition: .3s;
+  position: relative;
+}
+
+.empresa-card:hover {
+  transform: translateY(-8px);
+}
+
+.empresa-card h2 {
+  color: #222D5B;
+  margin-bottom: 10px;
+}
+
+.ver-mais {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4f6ef7;
+}

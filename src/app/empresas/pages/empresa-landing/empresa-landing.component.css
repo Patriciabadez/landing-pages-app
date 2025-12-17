@@ -1,0 +1,80 @@
+.landing-hero {
+  min-height: 85vh;
+  background: linear-gradient(135deg, #222D5B, #4f6ef7);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  opacity: .95;
+}
+
+.cta {
+  margin-top: 30px;
+  padding: 16px 40px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background: white;
+  color: #222D5B;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+}
+
+.beneficios {
+  padding: 80px;
+  background: #f5f7fb;
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+}
+
+.beneficios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.beneficio-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+
+.cta-final {
+  padding: 80px;
+  text-align: center;
+  background: #222D5B;
+  color: white;
+}
+
+.cta-secundaria {
+  margin-top: 20px;
+  padding: 14px 36px;
+  border-radius: 30px;
+  border: none;
+  background: #4f6ef7;
+  color: white;
+  font-weight: bold;
+}

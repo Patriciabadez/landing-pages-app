@@ -1,0 +1,16 @@
+<section class="empresas-hero">
+  <h1>Soluções sob medida para sua empresa</h1>
+  <p>Escolha o tipo de empresa e veja como podemos ajudar</p>
+</section>
+
+<section class="empresas-grid">
+  <a
+    class="empresa-card"
+    *ngFor="let e of empresas"
+    [routerLink]="['/empresas', e.slug]"
+  >
+    <h2>{{ e.nome }}</h2>
+    <p>{{ e.descricao }}</p>
+    <span class="ver-mais">Ver solução →</span>
+  </a>
+</section>
